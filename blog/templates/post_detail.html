@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Detailed Post
+{% endblock title %}
+
+
+{% block body %}
+    <h2><a href="">{{object.title}}</a></h2>
+    <p>{{object.body}}</p><br>
+    <a href="{% url 'edit' pk=object.pk %}">+ edit this post</a>
+    <a href="{% url 'delete' pk=object.pk %}" class="delete">Delete this post</a>
+{% endblock body %}

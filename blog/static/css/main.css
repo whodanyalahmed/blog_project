@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    color:#fff;
+    background: #555;
+    font-family: montserrat;
+}   
+a{
+    color:#fff;
+    text-decoration: none;
+    margin:20px 0px;
+    display: block;
+
+}
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+
+.post-entry{
+    margin-top:40px;
+    margin-left:20px;
+    float:left;
+}
+.log{
+    margin-top:-40px;
+    display:block;
+    float:right;
+}
+.round,.delete{
+    border:none;
+    padding:8px;
+    outline:none;
+    float:right;
+    display:block;
+    border-radius: 20px;
+}
+.delete{
+    color:rgb(133, 13, 13);
+    color:#fff;
+}
+.round:hover,.round:focus,.round:active,.delete:hover,.delete:focus{
+    background: #222;
+    transition: 0.4s ease-in-out;
+    color:#ccc;
+}
+.form{
+    line-height: 50px;
+    resize: none;
+}
+.para,p{
+    margin-left:120px;
+    display: block;
+    
+}
+header{
+    width:1024px;
+}
+.login{
+    width:900px;
+    margin:0 auto;
+    display:block;
+    float:right;
+}
+.topname{
+    margin-top:-50px;
+}
+.signup{
+    line-height: 50px;
+}

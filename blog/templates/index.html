@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block title %}
+Home
+{% endblock %}
+
+{% block body %}
+<h1>This is working</h1><hr>
+    {% for post in all_post_l %}
+        <div class="post-entry">
+            <h2><a href="{% url 'post' post.pk  %}">{{post.title}}</a></h2>
+            <p class="para">{{post.body}}</p>
+        </div>
+    {% endfor %}
+{% endblock body %}
